@@ -63,8 +63,9 @@ aside {
         rotate: 0deg;
     }
     52%{
+
         rotate: 1deg;
-        color: crimson;
+        color: #333;
     }
     54%{
         rotate: -1deg;
@@ -75,11 +76,16 @@ aside {
     58%{
         rotate: -2deg;
     }
+    59%{
+        translate: 0;
+    }
     60%{
+        translate: 2rem;
         rotate: 6deg;
         color: whitesmoke;
     }
     100%{
+        translate: 2rem;
         rotate: 6deg;
     }
 }
